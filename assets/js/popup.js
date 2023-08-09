@@ -1,18 +1,24 @@
 document.addEventListener("DOMContentLoaded", function () {
-  const showPopupLink = document.querySelector(".content a#showPopup");
-  const closePopupButton = document.getElementById("closePopup");
-  const projectPopup = document.getElementById("projectPopup");
+  const showPopupLinks = document.querySelectorAll(
+    ".content a[id^='showPopup']"
+  );
+  const closePopupButtons = document.querySelectorAll("[id^='closePopup']");
+  const projectPopups = document.querySelectorAll(".popup");
 
   console.log("Script loaded");
 
-  showPopupLink.addEventListener("click", (event) => {
-    event.preventDefault(); // Prevent the default link behavior
-    console.log("Show popup clicked");
-    projectPopup.style.display = "block";
+  showPopupLinks.forEach((link, index) => {
+    link.addEventListener("click", (event) => {
+      event.preventDefault();
+      console.log(`Show popup ${index + 1} clicked`);
+      projectPopups[index].style.display = "block";
+    });
   });
 
-  closePopupButton.addEventListener("click", () => {
-    console.log("Close popup clicked");
-    projectPopup.style.display = "none";
+  closePopupButtons.forEach((button, index) => {
+    button.addEventListener("click", () => {
+      console.log(`Close popup ${index + 1} clicked`);
+      projectPopups[index].style.display = "none";
+    });
   });
 });
