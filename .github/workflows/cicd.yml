@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v2.4  # Use a version compatible with Node.js 16
       - name: Debug workspace contents
         run: ls -R $GITHUB_WORKSPACE
       - uses: jakejarvis/s3-sync-action@master
