@@ -9,7 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@master
+      - uses: actions/checkout@v2
+      - name: Debug workspace contents
+        run: ls -R $GITHUB_WORKSPACE
       - uses: jakejarvis/s3-sync-action@master
         env:
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
