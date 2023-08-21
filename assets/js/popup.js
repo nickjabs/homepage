@@ -1,3 +1,5 @@
+// ... Your existing code ...
+
 document.addEventListener("DOMContentLoaded", function () {
   const showPopupLinks = document.querySelectorAll(
     ".content a[id^='showPopup']"
@@ -20,5 +22,19 @@ document.addEventListener("DOMContentLoaded", function () {
       console.log(`Close popup ${index + 1} clicked`);
       projectPopups[index].style.display = "none";
     });
+  });
+
+  // Additional event listener for the new popup
+  const newPopup = document.querySelector("#projectPopup3");
+  const newPopupShowLink = document.querySelector("#showPopup3");
+  const newPopupCloseButton = document.querySelector("#closePopup3");
+
+  newPopupShowLink.addEventListener("click", (event) => {
+    event.preventDefault();
+    newPopup.style.display = "block";
+  });
+
+  newPopupCloseButton.addEventListener("click", () => {
+    newPopup.style.display = "none";
   });
 });

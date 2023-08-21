@@ -100,6 +100,52 @@
           DynamoDB for a seamless deployment.
         </p>
 
+        <p>
+          <a href="#" id="showPopup3"><strong> (click) </strong></a> for how to
+          </a>
+        </p>
+
+
+        <div id="projectPopup3" class="popup" style="text-align: left;">
+          <p>
+            <strong>Step 1:</strong> An S3 bucket is created to store website files (HTML, CSS, JS), and it's linked to
+            a CloudFront distribution for web hosting. This allows for scalable and performant content delivery through
+            AWS's global Content Delivery Network (CDN).
+            <br>
+
+            <strong>Step 2:</strong> Enabling HTTPS and SSL Certificates: HTTPS redirection is enabled, ensuring secure
+            communication with the website. An SSL certificate is obtained from AWS Certificate Manager (ACM) to secure
+            the website's domain.
+            <br>
+
+            <strong>Step 3:</strong> Domain Registration with Route53: A custom domain is purchased and registered using
+            AWS Route53, AWS's domain name registration service.
+            <br>
+
+            <strong>Step 4:</strong> Integrating Visitor Counter with Lambda and DynamoDB: A visitor counter feature is
+            implemented using AWS Lambda and DynamoDB. This allows the website to display the number of visitors it has
+            received. A Lambda function interacts with DynamoDB to store and retrieve the visitor count.
+            <br>
+
+            <strong>Step 5:</strong> Implementing CI/CD with GitHub Actions: Continuous Integration and Continuous
+            Deployment (CI/CD) is set up using GitHub Actions. Changes made to the website code are automatically pushed
+            to the S3 bucket whenever there is a commit to the repository. This ensures a seamless development workflow
+            and quick updates to the live website.
+            <br>
+
+            <strong>Summary:</strong> The deployment showcases the use of AWS services like S3, CloudFront, Route53,
+            ACM, Lambda, and DynamoDB to create a professional Cloud Resume that stands out. The described steps provide
+            a comprehensive guide for anyone looking to enhance their resume using cloud technologies and showcase their
+            skills and achievements effectively.
+          </p>
+          <p>
+            <a href="#" id="closePopup3">Close</a>
+          </p>
+        </div>
+
+
+
+
 
 
 
@@ -120,8 +166,7 @@
       <div class="content">
         <div class="gallery">
           <a href="images/gallery/fulls/05.jpg" class="landscape"><img src="images/gallery/thumbs/05.jpg" alt="" /></a>
-          <a href="images/gallery/fulls/06.jpg"><img src="images/gallery/thumbs/06.jpg" alt="" /></a>
-          <a href="images/gallery/fulls/07.jpg"><img src="images/gallery/thumbs/07.jpg" alt="" /></a>
+
         </div>
       </div>
     </section>
@@ -197,69 +242,96 @@
             - Verify
             <a href="https://www.credly.com/badges/abcc36c1-8bf9-47db-822a-6f8b0698eae0">here</a>
           </li>
+
+
         </ul>
 
-        <!--
-<section>
-  <header>
-    <h3>Erat aliquam</h3>
-    <p>
-      Vehicula ultrices dolor amet ultricies et condimentum. Magna sed
-      etiam consequat, et lorem adipiscing sed dolor sit amet,
-      consectetur amet do eiusmod tempor incididunt ipsum suspendisse
-      ultrices gravida.
-    </p>
-  </header>
-  <div class="content">
-    <div class="gallery">
-      <a href="images/gallery/fulls/01.jpg" class="landscape"
-        ><img src="images/gallery/thumbs/01.jpg" alt=""
-      /></a>
-      <a href="images/gallery/fulls/02.jpg"
-        ><img src="images/gallery/thumbs/02.jpg" alt=""
-      /></a>
-      <a href="images/gallery/fulls/03.jpg"
-        ><img src="images/gallery/thumbs/03.jpg" alt=""
-      /></a>
-      <a href="images/gallery/fulls/04.jpg" class="landscape"
-        ><img src="images/gallery/thumbs/04.jpg" alt=""
-      /></a>
-    </div>
-  </div>
-</section>
+
+        <!-- EDUCATION -->
+        <section>
+          <header>
+            <h2>EDUCATION</h2>
+          </header>
+          <div class="content" style="width: 100%;">
+            <ul class="feature-icons">
+              <li class="icon solid fa-graduation-cap">DevOps and Cloud Computing Training</li>
+              <p>Training Institution: <a
+                  href="https://techstarter.de/?utm_term=&utm_campaign=DSA&utm_source=adwords&utm_medium=ppc&hsa_acc=3669963348&hsa_cam=14844701992&hsa_grp=131582397487&hsa_ad=549757351169&hsa_src=g&hsa_tgt=dsa-1435362625417&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gclid=EAIaIQobChMIvPSyq9TPgAMV9kZBAh3KSQtZEAAYASAAEgL5H_D_BwE">Techstarter
+                  GmbH</a><br />
+                Program: DevOps and Cloud Computing | Duration: 1 year</p>
+            </ul>
+
+            <ul class="feature-icons">
+              <li class="icon solid fa-graduation-cap">Bachelor's Degree in Multimedia Production</li>
+              <p>Educational Institution: Kiel University of Applied Sciences (Fachhochschule Kiel)<br />
+                Degree: Bachelor of Arts<br />
+                Field of Study: Multimedia Production<br />
+                Duration: September 2010 – June 2014</p>
+            </ul>
+          </div>
+        </section>
+        <!-- EDUCATION -->
+
+
+
+
+        <!-- HOBBIES -->
+
+        <section>
+          <header>
+            <h2> HOBBIES </h2>
+            <p>
+              In the realm of outdoor pursuits, surfing and crossfit are my chosen paths, offering vitality and
+              challenge. Yet, my love for technology and coding complements these active endeavors, creating a unique
+              harmony that defines my passions. It's the equilibrium between the rush of waves and the precision of code
+              that shapes my journey.
+            </p>
+          </header>
+          <div class="content">
+            <div class="gallery">
+              <a href="images/gallery/fulls/01.jpg" class="landscape"><img src="images/gallery/thumbs/01.jpg"
+                  alt="" /></a>
+              <a href="images/gallery/fulls/02.jpg"><img src="images/gallery/thumbs/02.jpg" alt="" /></a>
+              <a href="images/gallery/fulls/03.jpg"><img src="images/gallery/thumbs/03.jpg" alt="" /></a>
+              <!--
+<a href="images/gallery/fulls/04.jpg" class="landscape"><img src="images/gallery/thumbs/04.jpg"
+                  alt="" /></a>
 -->
 
+            </div>
+          </div>
+        </section>
+        <!-- HOBBIES -->
+
+
 
 
 
 
 
         <!--
-<section>
-  <header>
-    <h3>Lorem gravida</h3>
-    <p>
-      Proin aliquam facilisis ante interdum. Sed nulla amet lorem
-      feugiat tempus aenean ornare velit lacus, ac varius sed enim
-      lorem ullamcorper dolore. ac varius enim lorem ullamcorper
-      dolore. Proin aliquam facilisis.
-    </p>
-  </header>
-  <div class="content">
-    <div class="gallery">
-      <a href="images/gallery/fulls/08.jpg" class="portrait"
-        ><img src="images/gallery/thumbs/08.jpg" alt=""
-      /></a>
-      <a href="images/gallery/fulls/09.jpg" class="portrait"
-        ><img src="images/gallery/thumbs/09.jpg" alt=""
-      /></a>
-      <a href="images/gallery/fulls/10.jpg" class="landscape"
-        ><img src="images/gallery/thumbs/10.jpg" alt=""
-      /></a>
-    </div>
-  </div>
-</section>
--->
+        <section>
+          <header>
+            <h3>Lorem gravida</h3>
+            <p>
+              Proin aliquam facilisis ante interdum. Sed nulla amet lorem
+              feugiat tempus aenean ornare velit lacus, ac varius sed enim
+              lorem ullamcorper dolore. ac varius enim lorem ullamcorper
+              dolore. Proin aliquam facilisis.
+            </p>
+          </header>
+          <div class="content">
+            <div class="gallery">
+              <a href="images/gallery/fulls/08.jpg" class="portrait"><img src="images/gallery/thumbs/08.jpg"
+                  alt="" /></a>
+              <a href="images/gallery/fulls/09.jpg" class="portrait"><img src="images/gallery/thumbs/09.jpg"
+                  alt="" /></a>
+              <a href="images/gallery/fulls/10.jpg" class="landscape"><img src="images/gallery/thumbs/10.jpg"
+                  alt="" /></a>
+            </div>
+          </div>
+        </section>
+
 
 
         <!--
@@ -553,13 +625,16 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
         <!-- Section -->
         <section>
           <header>
-            <h2>Get in touch</h2>
+            <h2>Get in touch </h2>
+            </h2>
           </header>
+
+
           <div class="content">
             <p>
               Open to <strong>Collaborations</strong> and
               <strong>Opportunities </strong> to Leverage My Aspiring DevOps
-              Journey
+              Journey // <br> <strong>The form temporary disabled 📪</strong>
             </p>
             <form>
               <div class="fields">
@@ -582,6 +657,12 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
           </div>
           <footer>
             <ul class="items">
+              <li>
+                <h3>See my resume in German</h3>
+                <a href="https://www.canva.com/design/DAFppKEw1sg/o-8aTxTuXpOKc4yfCmW1YQ/view"
+                  download="nick_jabs_resume.pdf"> View !</a>
+              </li>
+
               <li>
                 <h3>Email</h3>
                 <a href="#">nickjabs.bewerbung@gmail.com</a>
