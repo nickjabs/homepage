@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  // Additional event listener for the new popup
+  // Additional event listener for the new popup (projectPopup3)
   const newPopup = document.querySelector("#projectPopup3");
   const newPopupShowLink = document.querySelector("#showPopup3");
   const newPopupCloseButton = document.querySelector("#closePopup3");
