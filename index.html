@@ -40,75 +40,89 @@
     </section>
 
     <!-- Section PROJECTS -->
-    <section id="first">
+    <section id="projects">
       <header>
         <h2>Projects</h2>
-        <p> on the top are the latest ☝️</p>
+
       </header>
       <div class="content">
-        <p>
-          <a href="#" id="showPopup2"><strong>(click)</strong></a> for Description of the
-          <a href="https://repept-12756.s3.eu-central-1.amazonaws.com/index.html" target="_blank"><strong>RECIPE
-              ROULETTE
-            </strong></a> Project
-        </p>
+        <div class="project">
+          <h3>Development of a Fullstack Application</h3>
+          <p>
+            REPO LINK: <a href="https://github.com/nickjabs/WitzProject"><strong>(click)</strong></a>
+          </p>
+          <p>
+            <!-- Read More Link -->
+            READ MORE <a href="#" id="showPopup2"><strong> (click) </strong></a>
+          </p>
+          <!-- Description Popup -->
+          <div class="popup" id="projectPopup2">
+            <p>
+              I actively contributed to developing a foundational web application at the outset of my career. Focusing
+              on the
+              backend within the MEAN stack (MongoDB, Express, Angular, and Node.js), I played a vital role in shaping
+              essential
+              components for this project. This experience marks an exciting milestone in my journey towards advancing
+              in DevOps.
+            </p>
 
-        <p>
-          <a href="#" id="showPopup1"><strong>(click)</strong></a> for Description of the
-          <a href="https://escape-project835.s3.eu-central-1.amazonaws.com/escape.html" target="_blank"><strong>ESCAPE
-              ROOM</strong></a> Project
-        </p>
+
+
+            <p>
+
+              <a href="#" id="closePopup2">Close</a>
+            </p>
+          </div>
+        </div>
+
+
+
+        <!-- Add more project items as needed -->
+      </div>
+    </section>
+    <!-- Section PROJECTS -->
+
+
+    <section id="Blog">
+      <header>
+        <h2>Blog</h2>
+
+      </header>
+      <div class="content">
+        <div class="project">
+          <h3>Discover DevOps Insights</h3>
+          <p>Delve into my Medium blog where I share hands-on experiences, insights, and projects related to DevOps:</p>
+          <p>
+            <a href="https://medium.com/@nickjabs" target="_blank" rel="noopener noreferrer">
+              <strong>Explore Blog (Medium)</strong>
+            </a>
+          </p>
+        </div>
       </div>
     </section>
 
-    <div id="projectPopup2" class="popup">
-      <p>
-        This project serves as a testament to my skills in web development, showcasing my expertise in front-end
-        technologies such as HTML, CSS, and Vanilla JavaScript. Through the use of solely Vanilla JavaScript, I've
-        demonstrated my ability to work with external APIs to fetch and display dynamic content, all while maintaining
-        an interactive and user-friendly interface.
 
-        Furthermore, I've highlighted my proficiency in deployment by hosting the project on AWS S3. This demonstrates
-        my capability to take a web application from development to live deployment, allowing users to access and
-        interact with the project online. Overall, this project encapsulates my prowess in Vanilla JavaScript and my
-        dedication to crafting engaging and functional web applications.<br>
-        <a href="https://repept-12756.s3.eu-central-1.amazonaws.com/index.html" target="_blank">View the project</a>
-      </p>
-      <p>
-        <a href="#" id="closePopup2">Close</a>
-      </p>
-    </div>
 
-    <div id="projectPopup1" class="popup">
-      <p>
-        Leveraging basic HTML, Bootstrap, and JavaScript, this week-long web app emulates an escape room adventure. <br>
-        Hosted on AWS S3, it showcases my fundamental front-end skills, encompassing navigation bar development and
-        responsive design.<br>
-        <a href="https://escape-project835.s3.eu-central-1.amazonaws.com/escape.html" target="_blank">View the
-          project</a>
-      </p>
-      <p>
-        <a href="#" id="closePopup1">Close</a>
-      </p>
-    </div>
-    <!-- Section PROJECTS -->
+
+
+
 
     <!-- ABOUT MY PAGE -->
     <section>
       <header>
-        <h3>About my Page</h3>
+        <h2>About my Page</h2>
         <p>
           To create this Cloud Resume, I utilized AWS services including S3, CloudFront, Route53, ACM, Lambda, and
           DynamoDB for a seamless deployment.
         </p>
 
         <p>
-          <a href="#" id="showPopup3"><strong> (click) </strong></a> for how to
-          </a>
+          <a href="#" id="showPopup1"><strong> (click) </strong></a> for how to
+
         </p>
 
 
-        <div id="projectPopup3" class="popup" style="text-align: left;">
+        <div id="projectPopup1" class="popup" style="text-align: left;">
           <p>
             <strong>Step 1:</strong> An S3 bucket is created to store website files (HTML, CSS, JS), and it's linked to
             a CloudFront distribution for web hosting. This allows for scalable and performant content delivery through
@@ -141,16 +155,9 @@
             skills and achievements effectively.
           </p>
           <p>
-            <a href="#" id="closePopup3">Close</a>
+            <a href="#" id="closePopup1">Close</a>
           </p>
         </div>
-
-
-
-
-
-
-
 
 
         <ul class="items">
@@ -181,40 +188,63 @@
       </header>
       <div class="content">
         <p>
-          By honing <strong>a diverse skill set</strong> in Docker, Kubernetes, web development, and DevOps, I aim to
-          excel.
-          <strong>My goal:</strong> becoming a proficient DevOps Engineer with cloud computing mastery.
+          As a junior professional, I've cultivated a strong foundation in key areas of DevOps, including Terraform,
+          Ansible,
+          CI/CD practices, Docker, Kubernetes, and web development. I've honed these foundational skills through
+          hands-on
+          experience and dedicated learning, positioning myself to contribute effectively as I continue to grow within
+          the
+          dynamic field of DevOps.
         </p>
+
+
         <ul class="feature-icons">
-          <li class="icon brands fa-docker">Docker & Kubernetes</li>
-          <p>Proficient in containerization using Docker and Kubernetes for efficient application deployment and
-            management.</p>
+          <ul class="feature-icons">
+            <li class="icon brands fa-terraform"><strong>Terraform</strong></li>
+            <p>Proficiency in using Terraform for infrastructure as code (IaC) to provision and manage cloud resources.
+            </p>
 
-          <li class="icon solid fa-laptop">Web Development</li>
-          <p>Proficient in HTML, CSS, and JavaScript to create engaging and interactive web experiences.</p>
+            <li class="icon brands fa-ansible"><strong>Ansible</strong></li>
+            <p>Experience in automating infrastructure configuration and management using Ansible.</p>
 
-          <li class="icon brands fa-github">Version Control (Git)</li>
-          <p>Skilled in version control and collaborative development using Git, utilizing GitHub for efficient code
-            management.</p>
+            <li class="icon solid fa-cogs"><strong>CI/CD</strong></li>
+            <p>Knowledge of Continuous Integration/Continuous Deployment practices to automate software delivery
+              pipelines.</p>
 
-          <li class="icon brands fa-aws">AWS Cloud</li>
-          <p>Hands-on experience with AWS services for cloud computing and deployment.</p>
+            <li class="icon solid fa-chart-line"><strong>Monitoring</strong></li>
+            <p>Skills in setting up monitoring solutions to track and analyze system performance and health.</p>
 
-          <li class="icon solid fa-cog">Scrum & Agile</li>
-          <p>Certified Scrum Master with a strong foundation in Agile methodologies, poised to contribute to efficient
-            teamwork and iterative development.</p>
+            <li class="icon brands fa-docker"><strong>Docker & Kubernetes</strong></li>
+            <p>Proficient in containerization using Docker and Kubernetes for efficient application deployment and
+              management.</p>
 
-          <li class="icon solid fa-code">Python Basics</li>
-          <p>Familiarity with fundamental concepts and syntax of the Python programming language.</p>
+            <li class="icon solid fa-laptop"><strong>Web Development</strong></li>
+            <p>Proficient in HTML, CSS, and JavaScript to create engaging and interactive web experiences.</p>
 
-          <li class="icon solid fa-check">Software Testing Basics</li>
-          <p>Understanding of software testing principles and practices to ensure high-quality code and applications.
-          </p>
+            <li class="icon brands fa-github"><strong>Version Control (Git)</strong></li>
+            <p>Skilled in version control and collaborative development using Git, utilizing GitHub for efficient code
+              management.</p>
 
-          <li class="icon solid fa-network-wired">Networking & Security</li>
-          <p>Acquainted with basic networking concepts and security principles to build secure and efficient systems.
-          </p>
-        </ul>
+            <li class="icon brands fa-aws"><strong>AWS Cloud</strong></li>
+            <p>Hands-on experience with AWS services for cloud computing and deployment.</p>
+
+            <li class="icon solid fa-cog"><strong></strong>Scrum & Agile</li>
+            <p>Certified Scrum Master with a strong foundation in Agile methodologies, poised to contribute to efficient
+              teamwork and iterative development.</p>
+
+            <li class="icon solid fa-code"><strong></strong>Python Basics</li>
+            <p>Familiarity with fundamental concepts and syntax of the Python programming language.</p>
+
+            <li class="icon solid fa-check"><strong></strong>Software Testing Basics</li>
+            <p>Understanding of software testing principles and practices to ensure high-quality code and applications.
+            </p>
+
+            <li class="icon solid fa-network-wired"><strong></strong>Networking & Security</li>
+            <p>Acquainted with basic networking concepts and security principles to build secure and efficient systems.
+            </p>
+          </ul>
+
+
       </div>
 
     </section>
@@ -255,31 +285,30 @@
 
     <section>
       <header>
-        <h2> My DevOps Path </h2>
+        <h2>
+          From Humble Beginnings to DevOps Mastery: My Journey of Transformation</h2>
         <p>
-          We are currently working on a practical full-stack project, specializing in the MEAN stack (MongoDB, Express,
-          Angular, and Node.js). I have taken over the backend part as I pursue a DevOps career. We focus on efficient
-          backend solutions, robust APIs, and database management to power our full-stack application. This project is a
-          step in my journey to DevOps. <a href="http://spassvogel.atrous.de/home" target="_blank">Click here</a>
-        </p>
-
-
+          My evolution has been a testament to the power of continuous learning, hands-on experimentation, and the
+          spirit of collaboration. </p>
 
 
       </header>
+
       <div class="content">
         <div class="gallery">
-          <a href="images/gallery/fulls/devops-path.pdf" class="landscape">
-            <img src="images/gallery/thumbs/10.jpg" alt="" style="width: 100%" />
+          <div>
+            <embed src="images/gallery/nickjabs-devops.pdf"
+              href="https://www.canva.com/design/DAF05zhCBuA/RIIzuAdb7t10T0qRL9FTDw/edit?utm_content=DAF05zhCBuA&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+              width="680px" height="600" download="nickjabs-devops.pdf">
+
+
+
+          </div>
+
           </a>
         </div>
       </div>
-
     </section>
-
-
-
-
 
     <!--
 
@@ -338,15 +367,9 @@
       </div>
     </section>
     <!-- HOBBIES -->
-
-
-
-
-
-
-
-
     <section>
+
+      <!--
       <header>
         <h2>Duis sed adpiscing veroeros amet</h2>
       </header>
@@ -366,7 +389,7 @@
 
 
 
-    <!--
+      <!--
 					<section>
 						<header>
 							<h2>Elements</h2>
@@ -633,91 +656,91 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
 					</section>
 				-->
 
-    <!-- Section -->
-    <section>
-      <header>
-        <h2>Get in touch </h2>
-        </h2>
-      </header>
+      <!-- Section -->
+      <section>
+        <header>
+          <h2>Get in touch </h2>
+          </h2>
+        </header>
 
 
-      <div class="content">
-        <p>
-          Open to <strong>Collaborations</strong> and
-          <strong>Opportunities </strong> to Leverage My Aspiring DevOps
-          Journey // <br> <strong>The form temporary disabled 📪</strong>
-        </p>
-        <form>
-          <div class="fields">
-            <div class="field half">
-              <input type="text" name="name" id="name" placeholder="Name" />
+        <div class="content">
+          <p>
+            Open to <strong>Collaborations</strong> and
+            <strong>Opportunities </strong> to Leverage My Aspiring DevOps
+            Journey // <br> <strong>The form temporary disabled 📪</strong>
+          </p>
+          <form>
+            <div class="fields">
+              <div class="field half">
+                <input type="text" name="name" id="name" placeholder="Name" />
+              </div>
+              <div class="field half">
+                <input type="email" name="email" id="email" placeholder="Email" />
+              </div>
+              <div class="field">
+                <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+              </div>
             </div>
-            <div class="field half">
-              <input type="email" name="email" id="email" placeholder="Email" />
-            </div>
-            <div class="field">
-              <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
-            </div>
-          </div>
-          <ul class="actions">
-            <li>
-              <input type="submit" value="Send Message" class="button primary" />
-            </li>
-          </ul>
-        </form>
-      </div>
-      <footer>
-        <ul class="items">
-          <li>
-            <h3>See my resume in German</h3>
-            <a href="https://www.canva.com/design/DAFppKEw1sg/o-8aTxTuXpOKc4yfCmW1YQ/view"
-              download="nick_jabs_resume.pdf"> View !</a>
-          </li>
-
-          <li>
-            <h3>Email</h3>
-            <a href="#">nickjabs.bewerbung@gmail.com</a>
-          </li>
-
-          <li>
-            <h3>Address</h3>
-            <span> Somewhere around the globe 🌍</span>
-          </li>
-          <li>
-            <h3>Find me Elsewhere</h3>
-            <ul class="icons">
+            <ul class="actions">
               <li>
-                <a href="https://www.linkedin.com/in/nickjabs/" class="icon brands fa-linkedin-in"><span
-                    class="label">LinkedIn</span></a>
-              </li>
-              <li>
-                <a href="https://github.com/nickjabs" class="icon brands fa-github"><span
-                    class="label">GitHub</span></a>
+                <input type="submit" value="Send Message" class="button primary" />
               </li>
             </ul>
-          </li>
-        </ul>
-      </footer>
-    </section>
+          </form>
+        </div>
+        <footer>
+          <ul class="items">
+            <li>
+              <h3>See my resume in German</h3>
+              <a href="https://www.canva.com/design/DAFppKEw1sg/o-8aTxTuXpOKc4yfCmW1YQ/view"
+                download="nick_jabs_resume.pdf"> View !</a>
+            </li>
 
-    <!-- Copyright -->
-    <div class="copyright">
-      &copy; All rights reserved <br>
-      <a href="https://html5up.net">Website template by HTML5 UP | DESIGNED BY @AJLKN</a>.<br>
-      Hosted on AWS
-    </div>
+            <li>
+              <h3>Email</h3>
+              <a href="#">nickjabs.bewerbung@gmail.com</a>
+            </li>
+
+            <li>
+              <h3>Address</h3>
+              <span> Somewhere around the globe 🌍</span>
+            </li>
+            <li>
+              <h3>Find me Elsewhere</h3>
+              <ul class="icons">
+                <li>
+                  <a href="https://www.linkedin.com/in/nickjabs/" class="icon brands fa-linkedin-in"><span
+                      class="label">LinkedIn</span></a>
+                </li>
+                <li>
+                  <a href="https://github.com/nickjabs" class="icon brands fa-github"><span
+                      class="label">GitHub</span></a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </footer>
+      </section>
+
+      <!-- Copyright -->
+      <div class="copyright">
+        &copy; All rights reserved <br>
+        <a href="https://html5up.net">Website template by HTML5 UP | DESIGNED BY @AJLKN</a>.<br>
+        Hosted on AWS
+      </div>
 
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script src="assets/js/index.js"></script>
-    <script src="assets/js/popup.js"></script>
-    <!-- Link to the external JavaScript file -->
+      <!-- Scripts -->
+      <script src="assets/js/jquery.min.js"></script>
+      <script src="assets/js/jquery.scrolly.min.js"></script>
+      <script src="assets/js/browser.min.js"></script>
+      <script src="assets/js/breakpoints.min.js"></script>
+      <script src="assets/js/util.js"></script>
+      <script src="assets/js/main.js"></script>
+      <script src="assets/js/index.js"></script>
+      <script src="assets/js/popup.js"></script>
+      <!-- Link to the external JavaScript file -->
 
 </body>
 
