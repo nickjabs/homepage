@@ -1,9 +1,9 @@
 Project Overview <p>
 
 <img src="CloudResumeArchitecture.jpg" alt="Cloud Resume Architecture">
-This project was about transforming my resume using Amazon Web Services (AWS). I explored AWS services and modern techniques to create a Cloud Resume showcasing my skills, aiming to make an impact on potential employers.
+This project was about transforming my resume using Amazon Web Services (AWS). I explored AWS services and modern techniques to create a Cloud Resume showcasing my skills, aiming to make an impact on potential employers. <p>
 
-<p>**AWS Services Used:**</p>
+**AWS Services Used:**
 
 - **Amazon S3 (Simple Storage Service):** Used for hosting files (HTML, CSS, JavaScript) due to its reliability and scalability.
 
