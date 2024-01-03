@@ -1,54 +1,34 @@
 Project Overview: Creating a Cloud Resume with AWS
 
-![Alt text](CloudResumeArchitecture.jpg)
-
-In this project, I embarked on a transformative journey to revolutionize my resume by harnessing the power of Amazon Web Services (AWS).
-I leveraged various AWS services and implemented cutting-edge techniques to create a dynamic and innovative Cloud Resume that showcases my skills and achievements,
-leaving a lasting impression on potential employers.
+<img src="CloudResumeArchitecture.jpg" alt="Cloud Resume Architecture">
+In this project, I embarked on a transformative journey to revolutionize my resume by harnessing the power of Amazon Web Services (AWS). I leveraged various AWS services and implemented cutting-edge techniques to create a dynamic and innovative Cloud Resume that showcases my skills and achievements, leaving a lasting impression on potential employers.
 
 AWS Services Used:
 
-Amazon S3 (Simple Storage Service): I utilized Amazon S3 as a robust storage solution for hosting my website's HTML, CSS, and JavaScript files.
-The highly durable and scalable nature of S3 made it an ideal choice for hosting static content, ensuring reliable and efficient delivery to users.
+Amazon S3 (Simple Storage Service): Utilized for hosting HTML, CSS, and JavaScript files. Its reliability and scalability made it ideal for delivering content efficiently.
 
-Amazon CloudFront: To enhance the performance and global reach of my website, I incorporated Amazon CloudFront as a Content Delivery Network (CDN).
-CloudFront cached and distributed my website's content across a network of edge locations worldwide, reducing latency and delivering an improved user experience.
+Amazon CloudFront: Boosted website performance and global reach by serving content through a Content Delivery Network (CDN), reducing latency for users worldwide.
 
-AWS Certificate Manager (ACM): To ensure secure communication and enable HTTPS on my website, I obtained SSL certificates from AWS Certificate Manager.
-This added an extra layer of security and boosted user trust in my Cloud Resume.
+AWS Certificate Manager (ACM): Ensured secure communication and enabled HTTPS for the website, enhancing security and user trust.
 
-Amazon Route53: Serving as the domain registrar and DNS service, Amazon Route53 allowed me to manage the routing of traffic to my CloudFront distribution.
-By registering my custom domain, I created a professional and branded experience for visitors.
+Amazon Route53: Managed traffic routing to the CloudFront distribution, providing a professional and branded experience by registering a custom domain.
 
-AWS Lambda: To implement an engaging feature, I integrated AWS Lambda into my Cloud Resume. I utilized Lambda to create a view counter for my website,
-retrieving data from Amazon DynamoDB to display the number of visitors my resume received.
+AWS Lambda and Amazon DynamoDB: Integrated Lambda to create a view counter, fetching data from DynamoDB to display the number of website visitors.
 
-Amazon DynamoDB: As the database for my view counter feature, Amazon DynamoDB effectively stored and managed the data representing the number of visitors my website received.
-The serverless nature of DynamoDB complemented the overall project's architecture.
-
-GitHub Actions: To streamline my development workflow and automate the deployment process, I employed GitHub Actions.
-This CI/CD tool allowed me to automatically push changes to my S3 bucket whenever I committed updates to my website code.
+GitHub Actions: Streamlined development workflow and automated deployment to S3 whenever code changes were committed.
 
 Techniques Implemented:
 
-HTML for Resume Design: By embracing HTML for my resume, I unlocked the potential to create a visually stunning and interactive representation of my skills and achievements.
-This dynamic approach distinguished my Cloud Resume from traditional formats like Word documents or PDFs.
+HTML for Resume Design: Leveraged HTML for a visually stunning and interactive representation of skills and achievements.
 
-Cloud Computing: Embracing cloud computing principles, I hosted my website on AWS, enabling it to be highly scalable, secure, and globally accessible.
-This strategic decision empowered me to leverage the full capabilities of the cloud to power my resume.
+Cloud Computing: Hosted the website on AWS, making it scalable, secure, and globally accessible.
 
-Serverless Architecture: To build a serverless web application portfolio, I leveraged AWS Lambda and other serverless services.
-This architecture eliminated the need for managing infrastructure, allowing me to focus on writing code and delivering value to users.
+Serverless Architecture: Utilized Lambda and serverless services, eliminating infrastructure management and focusing on code delivery.
 
-CI/CD Automation: Setting up CI/CD with GitHub Actions streamlined my development process.
-This automation ensured that changes to my website code were seamlessly synchronized with my S3 bucket, providing a smooth user experience and allowing rapid iterations.
+CI/CD Automation: Implemented GitHub Actions for seamless code synchronization and rapid iterations.
 
-API Integration: By integrating a visitor counter API with AWS Lambda and DynamoDB, my website was equipped to display the number of visitors it received.
-This enhanced user engagement and provided real-time interactivity on the Cloud Resume.
+API Integration: Integrated a visitor counter API for real-time interaction and user engagement.
 
-DNS Configuration: Configuring Amazon Route53 allowed me to manage the DNS settings for my domain effectively.
-This ensured the proper routing of traffic to my CloudFront distribution, and SSL certificates provided a secure and professional experience for visitors.
+DNS Configuration: Configured Route53 for effective traffic routing and SSL certificate management.
 
-Overall, this Cloud Resume project empowered me to elevate my resume to new heights, utilizing AWS services and modern techniques to stand out in the competitive job market.
-The project's success highlighted the transformative potential of cloud technologies and their application in the world of resume-building, leaving me equipped with newfound
-knowledge and skills for future endeavors.
+This Cloud Resume project empowered me to elevate my resume with AWS services and modern techniques, highlighting the transformative potential of cloud technologies in the job market.
