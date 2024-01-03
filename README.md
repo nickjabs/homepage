@@ -3,19 +3,20 @@ Project Overview <p>
 <img src="CloudResumeArchitecture.jpg" alt="Cloud Resume Architecture">
 This project was about transforming my resume using Amazon Web Services (AWS). I explored AWS services and modern techniques to create a Cloud Resume showcasing my skills, aiming to make an impact on potential employers.
 
-AWS Services Used:
+**AWS Services Used:**
 
-Amazon S3 (Simple Storage Service): Used for hosting files (HTML, CSS, JavaScript) due to its reliability and scalability.
+- **Amazon S3 (Simple Storage Service):** Used for hosting files (HTML, CSS, JavaScript) due to its reliability and scalability.
 
-Amazon CloudFront: Improved website performance by distributing content globally through a Content Delivery Network (CDN).
+- **Amazon CloudFront:** Improved website performance by distributing content globally through a Content Delivery Network (CDN).
 
-AWS Certificate Manager (ACM): Enhanced website security and user trust through HTTPS.
+- **AWS Certificate Manager (ACM):** Enhanced website security and user trust through HTTPS.
 
-Amazon Route53: Managed traffic routing and registered a custom domain for a professional touch.
+- **Amazon Route53:** Managed traffic routing and registered a custom domain for a professional touch.
 
-AWS Lambda and Amazon DynamoDB: Implemented a visitor counter for the website using Lambda and DynamoDB.
+- **AWS Lambda and Amazon DynamoDB:** Implemented a visitor counter for the website using Lambda and DynamoDB.
 
-GitHub Actions: Automated code deployment to S3 using GitHub Actions.
+- **GitHub Actions:** Automated code deployment to S3 using GitHub Actions.
+
 
 Techniques Implemented:
 
